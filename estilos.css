@@ -1,0 +1,95 @@
+/*Rebeca Gaytan Ramirez*/
+body{
+    background: linear-gradient(#7f7fd5, #df86e7, #eae191);
+    color:rgba(224, 205, 224, 0.952);
+    text-align: center;
+    font-family: Candara;
+    
+
+}
+
+@media only screen and (min-width:400px) {
+    header,nav,section,article,aside,footer{
+        width: 100%;
+    }
+    
+}
+
+h1{
+    color:rgb(114, 45, 45);/*color del tituolo*/
+    margin: .25em auto;
+    text-align: center;
+    width: 90%;
+    font-family: Didot;
+    /*text-shadow: 5px 5px 10px;*/
+}
+
+header, footer, article{
+    width: 90%;
+}
+
+nav, aside, section, header, footer, article{
+    background-color:rgba(56, 70, 109, 0.767) ;
+    border-radius: .50em;
+    text-align: center;
+    margin: .25em auto;
+    padding: .25em;
+}
+
+nav, aside{
+    width: 24%;
+    text-align: center;
+    height: 450px;
+}
+
+section{
+    width: 40%;
+    height: 450px;
+
+}
+
+nav, section, aside{
+    display: inline-block;
+}
+
+#cabecera, #articulo, #pie{
+    background-color: #be79cfdc;
+    text-align: center;
+    width: 95%;
+}
+
+#articulo{
+    min-height: 130px;
+    font-family:  'Lucida Sans';
+}
+
+#asaid{
+  float: right;
+  margin-right: 50px;
+  font-family: Lucida;
+  font-size: 15px;/*tamaño de letra*/
+}
+
+#navegador{
+    float: left;
+    margin-left: 56px;
+    
+
+}
+nav ul li{
+	font-family: helvetica;
+	list-style: none;
+	margin: 60px;
+	line-height: 30px;
+	font-size: 50px;
+}
+
+footer{
+    color: black;
+    font-family: forte;
+}
+
+  
+
+
+
